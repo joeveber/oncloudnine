@@ -19,3 +19,4 @@ jobs:
           repoToken: "${{ secrets.GITHUB_TOKEN }}"
           firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_ONCLOUDNINE_DCCC2 }}"
           projectId: oncloudnine-dccc2
+          channelId: "pr-${{ github.event.number }}-${{ github.event.pull_request.head.ref }}"
